@@ -1,0 +1,181 @@
+[
+    {
+      "product_id": 1,
+      "product_title": "Apple iPhone 15 Pro Max",
+      "product_image": "https://example.com/iphone15promax.jpg",
+      "category": "Phones",
+      "price": 1299,
+      "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
+      "specification": [
+        "6.7-inch Super Retina XDR display",
+        "A17 Bionic chip",
+        "Triple-camera system (48MP Main, 12MP Telephoto, 12MP Ultrawide)",
+        "LiDAR Scanner",
+        "Up to 2TB storage"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 2,
+      "product_title": "Samsung Galaxy S23 Ultra",
+      "product_image": "https://example.com/galaxyS23ultra.jpg",
+      "category": "Phones",
+      "price": 1199,
+      "description": "The next level of flagship performance with the Galaxy S23 Ultra.",
+      "specification": [
+        "6.8-inch Dynamic AMOLED 2X",
+        "Snapdragon 8 Gen 2",
+        "200MP Quad-camera system",
+        "S-Pen integration",
+        "Up to 1TB storage"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 3,
+      "product_title": "Google Pixel 7 Pro",
+      "product_image": "https://example.com/pixel7pro.jpg",
+      "category": "Phones",
+      "price": 899,
+      "description": "Capture your world with stunning clarity using the Google Pixel 7 Pro.",
+      "specification": [
+        "6.7-inch QHD+ OLED display",
+        "Tensor G2 Processor",
+        "50MP Triple-camera system",
+        "120Hz refresh rate",
+        "All-day battery life"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": 4,
+      "product_title": "OnePlus 11",
+      "product_image": "https://example.com/oneplus11.jpg",
+      "category": "Phones",
+      "price": 799,
+      "description": "Smooth performance and brilliant design with OnePlus 11.",
+      "specification": [
+        "6.7-inch AMOLED display",
+        "Snapdragon 8 Gen 2",
+        "Hasselblad-tuned cameras",
+        "80W fast charging",
+        "5G support"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": 5,
+      "product_title": "Xiaomi 13 Pro",
+      "product_image": "https://example.com/xiaomi13pro.jpg",
+      "category": "Phones",
+      "price": 699,
+      "description": "Flagship performance with an incredible Leica camera system.",
+      "specification": [
+        "6.73-inch AMOLED display",
+        "Snapdragon 8 Gen 2",
+        "120W hyper charging",
+        "Leica optics",
+        "IP68 water resistance"
+      ],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": 6,
+      "product_title": "MacBook Pro 16-inch",
+      "product_image": "https://example.com/macbookpro16.jpg",
+      "category": "Laptops",
+      "price": 2499,
+      "description": "Powerful and efficient laptop for professionals.",
+      "specification": [
+        "16-inch Liquid Retina XDR display",
+        "M2 Max chip",
+        "1TB SSD, 32GB RAM",
+        "Up to 22 hours of battery life"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 7,
+      "product_title": "Dell XPS 13",
+      "product_image": "https://example.com/dellxps13.jpg",
+      "category": "Laptops",
+      "price": 1399,
+      "description": "Sleek, lightweight, and powerful laptop for everyday use.",
+      "specification": [
+        "13.4-inch UHD+ display",
+        "Intel Core i7 12th Gen",
+        "16GB RAM, 512GB SSD",
+        "InfinityEdge display"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": 8,
+      "product_title": "HP Spectre x360",
+      "product_image": "https://example.com/hpspectre.jpg",
+      "category": "Laptops",
+      "price": 1599,
+      "description": "Premium convertible laptop with touch screen and stylus.",
+      "specification": [
+        "14-inch OLED display",
+        "Intel Evo Core i7",
+        "16GB RAM, 1TB SSD",
+        "360-degree hinge"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 9,
+      "product_title": "Apple Watch Ultra",
+      "product_image": "https://example.com/appleWatchUltra.jpg",
+      "category": "Smart Watches",
+      "price": 799,
+      "description": "Rugged and capable smartwatch designed for extreme sports.",
+      "specification": [
+        "49mm titanium case",
+        "36-hour battery life",
+        "Depth gauge and water temperature sensor"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": 10,
+      "product_title": "Samsung Galaxy Watch 5 Pro",
+      "product_image": "https://example.com/galaxywatch5pro.jpg",
+      "category": "Smart Watches",
+      "price": 499,
+      "description": "A durable smartwatch for the active lifestyle.",
+      "specification": [
+        "Advanced GPS tracking",
+        "Sapphire crystal display",
+        "Improved battery life"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": 11,
+      "product_title": "Logitech MX Master 3S",
+      "product_image": "https://example.com/mxMaster3S.jpg",
+      "category": "Accessories",
+      "price": 99,
+      "description": "The advanced mouse for creatives and professionals.",
+      "specification": [
+        "Ultrafast scrolling",
+        "4000 DPI sensor",
+        "Ergonomic design"
+      ],
+      "availability": true,
+      "rating": 4.6
+    }
+  ]
+  
