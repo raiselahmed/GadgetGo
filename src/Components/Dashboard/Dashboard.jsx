@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { NavLink, useLoaderData } from "react-router";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import { getStoredGadgetList } from "../../Utilitys/AddToDb";
 import CartLst from "../CartList/CartLst";
 import { toast } from "react-toastify";
+import { Cartcout } from "../Root/Root";
 
 const Dashboard = () => {
   const allGadget = useLoaderData();
@@ -23,13 +24,18 @@ const Dashboard = () => {
   }, [allGadget]);
 
   const totalCost = gadgetx.reduce((sum, item) => sum + (item.price || 0), 0);
+
+//  const [count,setCount] = useContext(Cartcout)
+  const [setCount] = useContext(Cartcout)
+
   const handleConfirmPurchase = () => {
-   
     toast.success(`Thank you for your purchase! Total cost: ${totalCost}`);
     
     // Optional: Clear the cart if intended
     setGadgetsx([]);
     
+    localStorage.removeItem("read-list");
+   setCount(0)
     // Close the modal
     setIsModalOpen(false);
   };
